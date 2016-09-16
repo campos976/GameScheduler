@@ -1,0 +1,23 @@
+#pattern is: 
+#TEAM,TYPE OF TEAM
+# 0 = has 3 tackle teams and 3 flag
+# 1 = missing a tackle team
+# 2 = missing a tackle team and a flag team
+# 3 = Missing many teams
+
+
+Rome, 0
+dodgeville, 1
+utica, 2
+camden, 1
+n utica, 1
+norwich, 0
+new hartford, 0
+cazenovia, 0
+illon, 3
+waterloo, 2
+waterville, 1
+squque, 0
+whitestown, 1
+northern community, 0
+squque, 1

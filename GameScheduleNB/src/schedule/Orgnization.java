@@ -11,19 +11,32 @@ package schedule;
  */
 public class Orgnization {
 
+    /**
+     * Team name
+     */
     private String name;
+    /**
+     * Total number of home games
+     */
     private int homeGames;
-    private int awayGames;
+    /**
+     * Some times you have organizations with only x amoun of teams. //0 has all
+     * teams //1 missing 1 team; //2 missing 2 teams;
+     */
     private int type;
-    //0 full stack
-    //1 missing 1 team;
-    //2 missing 2 teams;
-    public Orgnization(String name, int type){
-        homeGames=0;
-        awayGames=0;
+
+    /**
+     * An organization with many teams based on type
+     *
+     * @param name
+     * @param type
+     */
+    public Orgnization(String name, int type) {
+        homeGames = 0;
         this.type = type;
         this.name = name;
     }
+
     /**
      * @return the name
      */
@@ -50,20 +63,6 @@ public class Orgnization {
      */
     public void setHomeGames(int homeGames) {
         this.homeGames = homeGames;
-    }
-
-    /**
-     * @return the awayGames
-     */
-    public int getAwayGames() {
-        return awayGames;
-    }
-
-    /**
-     * @param awayGames the awayGames to set
-     */
-    public void setAwayGames(int awayGames) {
-        this.awayGames = awayGames;
     }
 
     /**
